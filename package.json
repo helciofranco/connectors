@@ -1,0 +1,32 @@
+{
+  "name": "labs-connectors",
+  "keywords": [],
+  "author": "",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ts:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fuels/connectors": "0.9.0",
+    "@fuels/react": "0.20.0",
+    "@tanstack/react-query": "5.51.11",
+    "fuels": "0.92.1",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@tanstack/react-query-devtools": "5.51.11",
+    "@types/node": "20.14.11",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}
